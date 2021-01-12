@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charusat University</title>
+    <style type="text/css">
+        *{
+    margin: 0px;
+    padding: 0px;
+}
+
+#studentcorner{
+    display: block;
+    margin: auto;
+    width: 10%;
+}
+.acco{
+    list-style-type: circle;
+    margin: 13px;
+    padding-left: 35px;
+    color: black;
+}
+
+.class{
+    margin: 13px;
+    padding-left: 35px;
+    color: black;
+}
+.wedding{
+    
+    padding-left: 35px;
+    color: black;
+}
+
+
+.container{
+    margin-right: 4px;
+    width: 23%;
+   
+    background-color:orange;
+}
+
+.flex-container{
+    display: flex;
+    margin-top: -3px;
+}
+
+.About{
+    width: 60%;
+    background-color:orange;
+}
+
+.smallimg{
+    float: right;
+} 
+
+#about{
+    text-align: center;
+    color: #510046;
+    text-decoration: underline;
+}
+
+.About,a{
+    text-align: center;
+}
+
+.para, p{
+    text-align: left;
+}
+
+.quary{
+    width: 15%;
+    background-color: orange;
+    padding: 12px;
+    margin-left: 4px;
+}
+
+.btn{
+    text-align: center;
+}
+
+#Quary{
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 36px;
+    text-align: center;
+    background-color: orange;
+    color: black;
+    padding-top: 15px; 
+}
+    </style>
+</head>
+<body>
+    <header>
+        <center><img id=logo src="logo.png" alt="" ></center>
+      <img src="banner-student.jpg" alt="" height = "345"  width = "100%" image-orientation = "none" image-rendering = "auto">
+      <marquee behavior="scroll" direction="left" bgcolor="#473709">
+    <img src="CMPICA.jfif" width="120" height="80" alt="cmpica" />
+    <img src="CSPIT.png" width="120" height="80" alt="cspit" />
+    <img src="depstar.png" width="120" height="80" alt="depstar" />
+    <img src="i2im.png" width="120" height="80" alt="i2im" />
+    <img src="PDPIAS.png" width="120" height="80" alt="pdpias" />
+    
+  </marquee>
+    </header>
+    <div class="flex-container">  
+        <div class="container">
+            <div class="studentcorner">
+                <h2>III.Student Corner</h2>
+                <ul class = "acco">
+                    <li>Pay Fees</li>
+                    <li>View</li>
+                    <li>Download</li>
+                    <li>Transcript</li>
+            </ul>
+            </div>
+            <div class="Institute">       
+                <h2>II.Institute</h2>
+                <ul class = "class">
+                    <li>CMPICA</li>
+                    <li>DEPSTAR</li>
+                    <li>CSPIT</li>
+                    
+                </ul>
+            </div>
+            <div class="wedding">
+                <h2>I.Center & Cells</h2>
+                <li>WINCELL</li>
+            </div>
+        </div>
+        <div class="About">
+            <h2 id=about>Online Education@ Charusat</h2>
+            <br>
+            <br>
+            <div class="smallimg">
+            
+            </div>
+            <div class="para">
+                <p>Studying online at Charusat  instantly connects students to a network of peers, lecturers and business experts from all over the world. Through our flexible, affordable programs, students can arrange their studies around other commitments and still benefit from all the key features of an on-campus education.  
+                Our online students learn through live interactive webinars, group projects and business simulations. Programs are supported on easy-to-use web platforms and are delivered by acclaimed lecturers who offer real-time, personalized tutoring from across the globe.
+</p>
+                <br>
+                <p>"CHARUSAT fosters an aspiration of being a World Class University.
+                It strives, initially, to be in the league of Top 20 Universities at National Level."
+</p>
+<br>
+<br>
+            </div>
+           
+            <h3><a href= "table.html">Click Here To get more</a></h3>
+        </div>
+        <div class="quary">
+            <form>
+            <h2 id=Quary>Send Your Query</h2>
+            <label for="fname">Name:-</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter Your Name" />
+            <br><br>
+            <label for="femail">E-mail:-</label>
+            <input type="text" id="fname" name="femail" >
+            <br><br>
+            <label for="farea">Message:-</label>
+            <textarea name="Mytextarea" id="farea" cols="15" rows="2"></textarea>
+            <br><br>
+            
+                <div class = "btn">
+                <button type="submit" value="Submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <h3>&#169; Design By Daksh Patel (19DCS083) &#169;</h3>
+    </footer>
+</body>
+</html>
